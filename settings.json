@@ -1,0 +1,15 @@
+{
+  "csv": "recipients.csv",
+  "log_file": "send_log.csv",
+  "batch_size": 10,
+  "batch_delay": 5.0,
+  "retry_count": 3,
+  "retry_delay": 5.0,
+
+  "account": "ACME",
+  "opportunity": "Q4 Expansion",
+  "amount": "$50,000",
+  "due": "2025-10-01",
+  "cta_url": "https://example.crm.com/opps/ACME-Q4",
+  "card_json": "main.json"
+}
